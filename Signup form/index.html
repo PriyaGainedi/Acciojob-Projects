@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Form</title>
+    <link rel="icon" type="image/x-icon" href="./images/icons8-sign-up-16.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header></header>
+    <main>
+        <div class="container">
+            <form action="https://httpbin.org/get" method="get">
+                <fieldset>
+                    <legend>Signup</legend>
+                    <div class="form-content">
+                        <p><input type="text" id="name" placeholder="Full Name" required></p>
+                        <p><input type="email" name="email" id="email" placeholder="Email" required></p>
+                        <p><input type="password" name="password" id="pwd" placeholder="Password" required></p>
+                        <p><input type="password" name="confirm-password" id="confirm-pwd" placeholder="Confirm Password" required></p>
+                        </p>
+                        <p><input type="date" name="dob" id="dob" required></p>
+                        <p>
+                            <input type="radio" name="student" id="student"><label for="student">Student</label>
+                            &nbsp;&nbsp; &nbsp;
+                            <input type="radio" name="employee" id="employee"><label for="employee">Employee</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" name="agree-condition" id="agree-condition" required><label for="agree-condition">I agree to the Terms and Conditions</label>
+                        </p>
+                        <div class="submitbtn">
+                            <p><button type="submit" name="submit" id="submit">Signup</button>
+                        </div>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>

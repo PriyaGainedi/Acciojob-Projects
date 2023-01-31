@@ -1,0 +1,54 @@
+.container{
+    margin:0;
+    padding:0;
+    background: #000000;
+    color:#FFFFFF;
+}
+fieldset{
+    border:none;
+}
+legend{
+    font-size: 35px;
+    padding: 60px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.form-content{
+    padding:60px;
+    padding-top: 0;
+}
+.form-content input[type=text],input[type=password], input[type=email], input[type=date] {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #FFFFFF;
+    width: 100%;
+    color:#FFFFFF;
+}
+.form-content input[type=date]{
+    text-transform:uppercase;    
+}
+.form-content input[type=radio]{
+    height: 13px;
+    width: 13px;
+    appearance: none;
+    background-color: #000000;
+    border: 1px solid #FFFFFF;
+    border-radius: 50%;
+    padding-right: 3px;
+  }
+  .form-content input[type=checkbox]{
+    height: 13px;
+    width: 13px;
+    appearance: none;
+    background-color: #000000;
+    border: 1px solid #FFFFFF;
+    /* margin-right: 20px; */
+  }
+  #student,#employee,#agree-condition{
+    margin-right: 10px;
+  }
+  #submit{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
