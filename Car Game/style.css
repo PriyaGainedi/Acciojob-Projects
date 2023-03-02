@@ -1,0 +1,47 @@
+.container{
+    background-color: white;
+}
+.score{
+    background-color: black;
+    width:100%;
+    height:75px;
+}
+.startScreen{
+    background-color:red;
+    width: 600px;
+    height:75px;
+    color:white;
+    text-align:center;
+    position:absolute;
+    z-index: 1;
+    margin-top:20px;
+    margin-left:25%; 
+    line-height: 3px;
+    padding: auto;
+}
+.gameArea{
+    background-color: black;
+    margin:auto;
+    width:300px;
+    height:84vh;
+    position:relative;
+}
+.hide{
+    display:none;
+}
+.car, .enemy{
+    /* background-image: url("car.jpg");
+    background-size: contain; */
+    background-color: yellow;
+    width: 50px;
+    height: 100px;
+    position:absolute;
+    bottom: 0;
+}
+.line{
+    background-color: white;
+    width:10px;
+    height:100px;
+    position: absolute;
+    margin-left: 46%;
+}
